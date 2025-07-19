@@ -20,4 +20,4 @@ for item in range(len(names)):
 outSheet.write('D1', 'Total')
 outSheet.write_formula('D2', '=sum(B2:B5)')  # Write total of ages in D2   
 outWorkbook.close()  # Close the workbook to save changes
-print("Data written to out.xlsx successfully.")
+print('Data written to out.xlsx successfully.')
